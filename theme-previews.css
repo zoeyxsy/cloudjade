@@ -1,0 +1,507 @@
+.theme-green {
+  --paper: #050705;
+  --white: #0f1411;
+  --ink: #f5f7f1;
+  --muted: #a5aea6;
+  --line: #273229;
+  --brand: #76b900;
+  --acid: #bff230;
+  --dark: #000000;
+  background: #000;
+  color: #fff;
+}
+
+.theme-green .site-header {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #d9e1d8;
+  color: #07120e;
+}
+
+.theme-mountain .site-header {
+  background: rgba(247, 247, 241, 0.94);
+}
+
+.theme-green .hero {
+  background: #000;
+  min-height: 96vh;
+}
+
+.theme-green .solid-hero {
+  background:
+    radial-gradient(circle at 82% 24%, rgba(118, 185, 0, 0.22), transparent 24%),
+    linear-gradient(115deg, rgba(0, 0, 0, 1), rgba(4, 18, 11, 0.92) 54%, rgba(0, 0, 0, 1)),
+    repeating-linear-gradient(90deg, rgba(118,185,0,0.13) 0 1px, transparent 1px 118px),
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.055) 0 1px, transparent 1px 118px),
+    #000;
+}
+
+.theme-green .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.44) 52%, rgba(0, 0, 0, 0.18)),
+    linear-gradient(0deg, rgba(0,0,0,0.9), transparent 42%);
+}
+
+.theme-green .brand img.brand-mark {
+  background: transparent;
+  filter: none;
+  height: 38px;
+  object-fit: contain;
+  padding: 0;
+  width: 56px;
+}
+
+.theme-green .hero-content {
+  max-width: 840px;
+  padding-top: 18vh;
+}
+
+.theme-green h1 {
+  color: #fff;
+  max-width: 860px;
+}
+
+.theme-green .hero-logo {
+  background: transparent;
+  filter: brightness(0) invert(1);
+  height: 74px;
+  padding: 0;
+  width: 74px;
+}
+
+.theme-green .hero .eyebrow,
+.theme-green .eyebrow {
+  color: var(--brand);
+}
+
+.theme-green .hero-copy {
+  color: #d7ded6;
+}
+
+.theme-green .button {
+  border-radius: 2px;
+}
+
+.theme-green .button.primary {
+  background: transparent;
+  border-color: var(--brand);
+  color: #fff;
+}
+
+.theme-green .button.secondary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.theme-green .hero-metrics {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 48px;
+  max-width: 940px;
+}
+
+.theme-green .hero-metrics div {
+  border: 1px solid #354238;
+  min-height: 112px;
+  padding: 20px;
+}
+
+.theme-green .hero-metrics div:last-child {
+  padding-left: 20px;
+}
+
+.theme-green .hero-metrics strong {
+  color: var(--acid);
+  display: block;
+  font-size: clamp(17px, 1.65vw, 24px);
+  line-height: 1.08;
+  text-transform: uppercase;
+  overflow-wrap: normal;
+}
+
+.theme-green .hero-metrics span {
+  color: #a5aea6;
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+
+.theme-green .hero-swatch-panel {
+  bottom: 8vh;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 122px);
+  position: absolute;
+  right: clamp(24px, 6vw, 92px);
+  z-index: 2;
+}
+
+.theme-green .hero-swatch-panel img {
+  aspect-ratio: 1;
+  border: 1px solid #5e5e5e;
+  object-fit: cover;
+  width: 100%;
+}
+
+.theme-green .fabric-nav,
+.theme-green .technology-section,
+.theme-green .products-section {
+  background: #000;
+  color: #fff;
+}
+
+.theme-green .category-tabs {
+  border-color: #4c5a50;
+}
+
+.theme-green .category-tab {
+  border-color: #4c5a50;
+  color: #fff;
+}
+
+.theme-green .category-tab span {
+  color: #a5aea6;
+}
+
+.theme-green .category-tab.active {
+  background: #121a14;
+  box-shadow: inset 0 -4px 0 var(--brand);
+}
+
+.theme-green .category-tab.active span {
+  color: var(--brand);
+}
+
+.theme-green .technology-grid article,
+.theme-green .product-card {
+  background: #111713;
+  border-color: #354238;
+  color: #fff;
+}
+
+.theme-green .technology-grid p,
+.theme-green .product-card .name,
+.theme-green .spec-line dt {
+  color: #a5aea6;
+}
+
+.theme-green .technology-grid span,
+.theme-green .product-card .family,
+.theme-green .product-code {
+  color: var(--brand);
+}
+
+.theme-green .product-code {
+  background: rgba(0, 0, 0, 0.92);
+}
+
+.theme-green .spec-line,
+.theme-green .product-tools,
+.theme-green .search-field input,
+.theme-green .filter-chip,
+.theme-green .chip {
+  border-color: #354238;
+}
+
+.theme-green .search-field input {
+  background: #0f1411;
+  color: #fff;
+}
+
+.theme-green .filter-chip {
+  color: #fff;
+}
+
+.theme-green .filter-chip.active {
+  background: transparent;
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.theme-green .feature-band article:first-child,
+.theme-green .feature-band article:last-child {
+  background: #07100d;
+  border-top: 1px solid #354238;
+  border-bottom: 1px solid #354238;
+}
+
+.theme-green .why-section {
+  background: #050705;
+  border-top: 1px solid #354238;
+  display: block;
+}
+
+.theme-green .why-copy {
+  max-width: 980px;
+}
+
+.theme-green .reason-list {
+  margin-top: 56px;
+}
+
+.theme-green .footer {
+  background: #000;
+  border-top: 1px solid #354238;
+}
+
+.theme-mountain {
+  --paper: #f4f1e8;
+  --brand: #064a31;
+  --acid: #c6ff46;
+  --dark: #07100d;
+}
+
+.theme-mountain .hero {
+  background: var(--paper);
+  color: var(--ink);
+  min-height: 88vh;
+}
+
+.theme-mountain .line-hero {
+  align-items: center;
+  background:
+    linear-gradient(180deg, #fbfaf6, #ece8dc),
+    var(--paper);
+  display: flex;
+  justify-content: center;
+}
+
+.theme-mountain .line-hero svg {
+  height: 100%;
+  max-height: 900px;
+  opacity: 0.92;
+  width: 100%;
+}
+
+.theme-mountain .cloud-line,
+.theme-mountain .mountain-line,
+.theme-mountain .ridge-line {
+  fill: none;
+  stroke: #064a31;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-mountain .cloud-line {
+  stroke-width: 26;
+  opacity: 0.14;
+}
+
+.theme-mountain .mountain-line {
+  stroke-width: 32;
+  opacity: 0.28;
+}
+
+.theme-mountain .mountain-line.thin {
+  stroke-width: 16;
+  opacity: 0.18;
+}
+
+.theme-mountain .ridge-line {
+  stroke-width: 4;
+  opacity: 0.18;
+}
+
+.theme-mountain .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(244, 241, 232, 0.95), rgba(244, 241, 232, 0.7) 42%, rgba(244, 241, 232, 0.18)),
+    linear-gradient(180deg, rgba(7, 16, 13, 0), rgba(7, 16, 13, 0.12));
+}
+
+.theme-mountain .hero-content {
+  color: var(--ink);
+}
+
+.theme-mountain .hero .eyebrow {
+  color: var(--brand);
+}
+
+.theme-mountain .hero-copy {
+  color: var(--muted);
+}
+
+.theme-mountain .button.secondary {
+  color: var(--ink);
+}
+
+.theme-mountain .hero-logo {
+  border: 1px solid rgba(6, 74, 49, 0.2);
+}
+
+.theme-green .technology-section,
+.theme-green .products-section,
+.theme-mountain .technology-section,
+.theme-mountain .products-section {
+  background-image:
+    linear-gradient(rgba(118, 185, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(118, 185, 0, 0.06) 1px, transparent 1px);
+  background-size: 96px 96px;
+}
+
+@media (max-width: 980px) {
+  .theme-green .hero-swatch-panel {
+    display: none;
+  }
+
+  .theme-green .hero-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .theme-green .hero-metrics div,
+  .theme-green .hero-metrics div:nth-child(2),
+  .theme-green .hero-metrics div:last-child {
+    border: 1px solid #354238;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .theme-green .hero-metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* White-led technical variant: black becomes structure, green stays the signal. */
+.theme-green {
+  --paper: #f7f8f2;
+  --white: #ffffff;
+  --ink: #07120e;
+  --muted: #5c665f;
+  --line: #d8dfd8;
+  --brand: #5fa800;
+  --acid: #76b900;
+  --dark: #07120e;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.theme-green .hero {
+  background: var(--paper);
+}
+
+.theme-green .solid-hero {
+  background:
+    linear-gradient(90deg, rgba(247, 248, 242, 0.98), rgba(247, 248, 242, 0.88) 54%, rgba(7, 18, 14, 0.12)),
+    radial-gradient(circle at 82% 24%, rgba(118, 185, 0, 0.16), transparent 26%),
+    repeating-linear-gradient(90deg, rgba(7,18,14,0.07) 0 1px, transparent 1px 118px),
+    repeating-linear-gradient(0deg, rgba(7,18,14,0.045) 0 1px, transparent 1px 118px),
+    var(--paper);
+}
+
+.theme-green .hero-shade {
+  background:
+    linear-gradient(90deg, rgba(247, 248, 242, 0.92), rgba(247, 248, 242, 0.58) 50%, rgba(247, 248, 242, 0.1)),
+    linear-gradient(0deg, rgba(247,248,242,0.9), transparent 46%);
+}
+
+.theme-green h1,
+.theme-green .hero-content {
+  color: var(--ink);
+}
+
+.theme-green .hero-copy,
+.theme-green .hero-metrics span {
+  color: var(--muted);
+}
+
+.theme-green .button.primary {
+  color: var(--ink);
+}
+
+.theme-green .button.secondary {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.theme-green .hero-metrics {
+  border-color: var(--ink);
+}
+
+.theme-green .hero-metrics div {
+  border-color: var(--ink);
+}
+
+.theme-green .hero-swatch-panel img {
+  border-color: var(--ink);
+}
+
+.theme-green .fabric-nav,
+.theme-green .technology-section,
+.theme-green .products-section {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.theme-green .category-tabs,
+.theme-green .category-tab {
+  border-color: var(--ink);
+}
+
+.theme-green .category-tab {
+  color: var(--ink);
+}
+
+.theme-green .category-tab.active {
+  background: var(--ink);
+  color: #fff;
+}
+
+.theme-green .technology-grid article,
+.theme-green .product-card {
+  background: #fff;
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.theme-green .technology-grid p,
+.theme-green .product-card .name,
+.theme-green .spec-line dt {
+  color: var(--muted);
+}
+
+.theme-green .spec-line,
+.theme-green .product-tools,
+.theme-green .search-field input,
+.theme-green .filter-chip,
+.theme-green .chip {
+  border-color: var(--ink);
+}
+
+.theme-green .search-field input {
+  background: #fff;
+  color: var(--ink);
+}
+
+.theme-green .filter-chip {
+  color: var(--ink);
+}
+
+.theme-green .filter-chip.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+
+.theme-green .feature-band article:first-child,
+.theme-green .feature-band article:last-child {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.theme-green .why-section {
+  background: #fff;
+  border-top: 1px solid var(--ink);
+  color: var(--ink);
+}
+
+.theme-green .footer {
+  background: var(--ink);
+  border-top: 1px solid var(--ink);
+}
+
+.theme-green .footer .button.primary {
+  border-color: var(--brand);
+  color: #fff;
+}
